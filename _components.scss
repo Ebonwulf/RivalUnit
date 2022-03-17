@@ -12,7 +12,8 @@ nav {
   height: 100%;
   background-color: black;
   color: white;
-  font-size: 30px;
+  font-family: $font-logo;
+  font-size: 25px;
 }
 a {
   width: 33%;
@@ -26,14 +27,18 @@ a:hover {
   color: white;
 }
 h1 {
-  color: white;
+  color: whitesmoke;
   text-align: center;
   margin-top: 20px;
   padding: 20px;
   font-size: 120px;
   text-shadow: 5px 5px black;
+  font-family: $font-logo;
+  font-weight: 900;
 }
-
+p {
+  font-family: $font-body;
+}
 .welcome {
   text-align: center;
   font-size: 30px;
