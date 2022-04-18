@@ -12,6 +12,7 @@ nav {
   background-color: black;
   font-family: $font-logo;
   font-size: 25px;
+  color: white;
 }
 .logo-pic {
   width: 100%;
@@ -31,10 +32,7 @@ a:hover {
   color: white;
   background-color: $secondary-color;
 }
-h1 {
-  font-size: 80px;
-  font-family: $font-headings;
-}
+
 .home-heading {
   color: whitesmoke;
   text-align: center;
@@ -46,13 +44,17 @@ h1 {
   font-weight: 900;
 }
 p {
-  font-family: $font-body;
-  font-size: 25px;
+  font-family: $font-headings;
 }
 .welcome {
   text-align: center;
-  font-size: 30px;
   color: black;
+}
+
+.social-media-links {
+  margin: 1%;
+  height: 100px;
+  width: 100px;
 }
 
 .footer {
